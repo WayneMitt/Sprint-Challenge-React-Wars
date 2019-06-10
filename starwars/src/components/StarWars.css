@@ -1,0 +1,28 @@
+.CardContainer {
+    width: 1800px;
+    height: 500px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.CharName h1 {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 10px #ee0606, 0 0 20px #ee0606, 0 0 20px #ee0606, 0 0 30px #ee0606, 0 0 30px #ee0606;
+}
+
+.CharName {
+    margin: 30px;
+    color: white;
+    border:1px solid white;
+    background-color: none;
+    border-radius: 10px;
+    width: 350px;
+    background: .8;
+}
+
+.CharName ul{
+    margin: 30px;
+    text-align: left;
+}
