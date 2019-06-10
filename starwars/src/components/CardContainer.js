@@ -6,7 +6,6 @@ const CardContainer = (props) => {
     console.log(props);
     return (
         <div className='CardContainer'>
-            {/* <div className='card'> */}
                 {props.charData.map(char => {
                     return (
                         <CharName
@@ -21,7 +20,6 @@ const CardContainer = (props) => {
                         />
                     )
                 })}
-            {/* </div> */}
 
         </div>
     );
